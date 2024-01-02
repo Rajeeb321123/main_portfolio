@@ -21,7 +21,7 @@ import * as random from 'maath/random/dist/maath-random.esm'
 // ACTUAL STAR 3D model: we created from scratch
 const Stars = (  ) => {
 
-  const ref = useRef<any>( null);
+  const ref = useRef( null);
   
   // creating shpere
   
