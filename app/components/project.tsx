@@ -22,6 +22,7 @@ export default function Project({
 }: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const controls = useAnimationControls();
+    const controlsMobile = useAnimationControls();
 
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -41,14 +42,16 @@ export default function Project({
     return (
         // if something isnot smooth in framer motion just wrap everything in div and animate of that div
         <motion.div
+            onClick={() => controlsMobile.start({ y: 0, x: "0%", opacity: 1 })}
             onHoverStart={() => controls.start({ y: 0, x: "0%", opacity: 1 })}
             onHoverEnd={() => controls.start({ y: -100, x: "0%", opacity: 0 })}
+
             ref={ref}
             style={{
                 scale: scaleProgress,
                 opacity: opacityProgress
             }}
-            className="mb-3 sm:mb-8 group relative"
+            className="mb-3 sm:mb-8 group relative cursor-pointer sm:cursor-default"
         >
 
             <section
@@ -136,7 +139,46 @@ export default function Project({
                         damping: 25,
                         duration: 1000
                     }}
-                    className=" absolute top-0 ml-auto left-0 right-0 mr-auto flex justify-center items-center gap-4 "
+                    className=" hidden sm:flex absolute top-0 ml-auto left-0 right-0 mr-auto justify-center items-center gap-4 "
+                >
+                    {youtube_link !== '' && (
+                        <Link
+                            href={youtube_link}
+                            target="_blank"
+                        >
+                            <ImYoutube2 className=" hover:cursor-pointer text-6xl text-[#CD201F]  focus:scale-110 hover:scale-110 active:scale-105" />
+                        </Link>
+                    )
+                    }
+                    <Link
+                        href={source_code_link}
+                        target="_blank"
+                    >
+                        <DiGithubFull className=" hover:cursor-pointer text-6xl  dark:text-[#f5f5f5] text-[#333] focus:scale-110 hover:scale-110 active:scale-105" />
+                    </Link>
+                    {website_link !== '' && (
+                        <Link
+                            href={website_link}
+                            target="_blank"
+                        >
+                            <FiExternalLink className=" hover:cursor-pointer text-3xl   dark:text-[#f5f5f5] text-[#333] focus:scale-110 hover:scale-110 active:scale-105" />
+                        </Link>
+
+                    )}
+
+
+
+                </motion.div>
+                <motion.div
+                    initial={{ y: -100, x: "0%", opacity: 0 }}
+                    animate={controlsMobile}
+                    transition={{
+                        type: "spring",
+                        stiffness: "380",
+                        damping: 25,
+                        duration: 1000
+                    }}
+                    className=" sm:hidden absolute top-0 ml-auto left-0 right-0 mr-auto flex justify-center items-center gap-4 "
                 >
                     {youtube_link !== '' && (
                         <Link
