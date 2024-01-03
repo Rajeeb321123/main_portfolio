@@ -9,7 +9,7 @@ import ThemeSwitch from './components/theme-switch'
 import ThemeContextProvider from '@/context/theme-context'
 import Globe from './components/globe/globe'
 import Contact from './components/contact'
-import StarsCanvas from './components/stars-canvas'
+// import StarsCanvas from './components/stars-canvas'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -63,7 +63,7 @@ export default function RootLayout({
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
-        <StarsCanvas/>
+        {/* <StarsCanvas/> */}
 
       </body>
     </html>
