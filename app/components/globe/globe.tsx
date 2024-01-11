@@ -119,7 +119,7 @@ export default function Globe() {
 
             render.current = false;
         })
-    }, []);
+    }, [mouse.x, mouse.y]);
 
 
     const handleMouseMove = (e:MouseEvent) => {
