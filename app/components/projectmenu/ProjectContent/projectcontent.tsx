@@ -30,7 +30,7 @@ export default function index({
                 custom={2}
                 variants={slide}
                 initial="initial" animate="enter" exit="exit"
-                className=' flex text-center text-lg lg:text-left whitespace-normal grid-rows-1 lg:col-span-1 '
+                className=' flex text-center text-md md:text-lg lg:text-left whitespace-normal grid-rows-1 lg:col-span-1 '
             >
                 {description}
 
