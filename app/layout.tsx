@@ -9,6 +9,10 @@ import ThemeSwitch from './components/theme-switch'
 import ThemeContextProvider from '@/context/theme-context'
 import Globe from './components/globe/globe'
 import Contact from './components/contact'
+import Promenu from './components/menu'
+
+import ProjectBurgerMenu from './components/menu/projectmenu/project-burger-menu'
+import ProjectMenu from './components/project-menu'
 // import StarsCanvas from './components/stars-canvas'
 
 
@@ -35,8 +39,11 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
+            
+            {/* <Promenu/> */}
             {children}
-
+            
+            
             <div
               className='
               flex 
