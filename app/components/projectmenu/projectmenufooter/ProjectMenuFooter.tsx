@@ -28,7 +28,12 @@ const ProjectMenuFooter = ({ website_link, source_code_link, youtube_link }: Foo
                     "
                         target="_blank"
                         href={youtube_link}>
-                        Youtube<FiYoutube className=" h-6 w-6 group-hover:scale-125 transition duration-500" />
+                        <span
+                            className="hidden md:flex"
+                        >
+                            Youtube
+                        </span>
+                        <FiYoutube className=" h-6 w-6 group-hover:scale-125 transition duration-500" />
                     </a>
                 </div>
                 )}
@@ -49,7 +54,12 @@ const ProjectMenuFooter = ({ website_link, source_code_link, youtube_link }: Foo
                     "
                         target="_blank"
                         href={source_code_link}>
-                        GitHub<FiGithub className=" h-6 w-6 group-hover:scale-125 transition duration-500" />
+                        <span
+                            className="hidden md:flex"
+                        >
+                            GitHub
+                        </span>
+                        <FiGithub className=" h-6 w-6 group-hover:scale-125 transition duration-500" />
                     </a>
                 </div>
                 )}
@@ -69,7 +79,12 @@ const ProjectMenuFooter = ({ website_link, source_code_link, youtube_link }: Foo
                     "
                         target="_blank"
                         href={website_link}>
-                        LiveDemo<FiExternalLink className=" h-6 w-6 group-hover:scale-125 transition duration-500" />
+                        <span
+                            className="hidden md:flex"
+                        >
+                            Live Demo
+                        </span>
+                        <FiExternalLink className=" h-6 w-6 group-hover:scale-125 transition duration-500" />
                     </a>
                 </div>
                 )}
