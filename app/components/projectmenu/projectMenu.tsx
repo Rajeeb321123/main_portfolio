@@ -32,7 +32,7 @@ export default function index({
 
 
   return (
-    <motion.div variants={menuSlide} initial="initial" animate="enter" exit="exit" className=" z-[999] h-[100vh]  backdrop-blur-md bg-[rgb(41,41,41)]/50 fixed right-0 top-0 text-white w-[90vw] flex flex-col">
+    <motion.div variants={menuSlide} initial="initial" animate="enter" exit="exit" className=" z-40 h-[100vh]  backdrop-blur-md bg-[rgb(41,41,41)]/50 fixed right-0 top-0 text-white w-[90vw] flex flex-col">
       <ProjectBurgerMenu isProjectActive={isProjectActive} setIsProjectActive={setIsProjectActive} />
       <div className=" flex-1 lg:p-[100px] overflow-hidden">
         <ProjectHeader title={title}/>

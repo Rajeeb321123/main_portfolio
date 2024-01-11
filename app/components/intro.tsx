@@ -57,7 +57,7 @@ export default function Intro() {
                 <div
                     className="
                     pointer-events-none
-                    z-20
+                    z-10
                     relative
                     "
                 >

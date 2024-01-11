@@ -10,7 +10,7 @@ export default function Header() {
     const { activeSection, setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
     return (
         <header
-            className='z-[40] relative'
+            className='z-30 relative'
         >
             <motion.div
                 initial={{ y: -100, x: "-50%", opacity: 0 }}
