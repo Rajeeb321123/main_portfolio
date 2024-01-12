@@ -32,7 +32,7 @@ export default function index({
 
 
   return (
-    <motion.div variants={menuSlide} initial="initial" animate="enter" exit="exit" className=" z-40 h-[100vh]  backdrop-blur-md bg-[rgb(41,41,41)]/50 fixed right-0 top-0 text-white w-[90vw] flex flex-col">
+    <motion.div variants={menuSlide} initial="initial" animate="enter" exit="exit" className=" z-40   backdrop-blur-md bg-[rgb(41,41,41)]/50 fixed right-0 top-0 bottom-0 text-white w-[90vw] flex flex-col">
       <ProjectBurgerMenu isProjectActive={isProjectActive} setIsProjectActive={setIsProjectActive} />
       <div className=" flex-1 lg:p-[100px] overflow-hidden">
         <ProjectHeader title={title}/>
@@ -45,7 +45,7 @@ export default function index({
         {/* FOOTER */}
       </div>
       <div
-        className='lg:px-[100px] p-1 m-[20px] w-auto '
+        className='lg:px-[100px] p-1 mx-[20px] w-auto  mb-20 md:mb-[20px]'
       >
 
         <ProjectMenuFooter
