@@ -70,7 +70,7 @@ export const projectsData = [
       " AI chatbot using OpenAi with features like real time data, memory, speech recognition and synthesis",
     tags: ["React", "Next.js", "MySQL", "OpenAi", "Tailwind", "Prisma", "PineCone.io", "ElevenLabs",],
     imageUrl: moruAi,
-    source_code_link: "https://github.com/Rajeeb321123/Moru-ai",
+    source_code_link: "https://github.com/Rajeeb321123/AiChatBuddy",
     website_link: "",
     youtube_link: ""
   },
