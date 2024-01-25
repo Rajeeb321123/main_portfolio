@@ -72,7 +72,7 @@ export const projectsData = [
     imageUrl: moruAi,
     source_code_link: "https://github.com/Rajeeb321123/AiChatBuddy",
     website_link: "",
-    youtube_link: ""
+    youtube_link: "https://www.youtube.com/watch?v=IfygDHf-vg0&ab_channel=RajeepThapa"
   },
   {
     title: "Sunshine fly",
