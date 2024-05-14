@@ -50,7 +50,7 @@ export const experiencesData = [
     title: "Full-stack Developer",
     location: "Moru Digital Wallet Pvt lTd",
     description:
-      "I worked as a full-stack intern for 3 months Moru Digital Wallet Pvt Ltd. I primarily learnt about OpenAi, Llama2, and other things related to Ai with large Language model.",
+      "I worked as a full-stack intern for 6 months Moru Digital Wallet Pvt Ltd. I primarily learnt about OpenAi, Llama2, and langchain other things related to Ai with large Language model.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   }
