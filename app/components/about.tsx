@@ -28,26 +28,25 @@ export default function About() {
             >
                 After graduating with a degree in{" "}
                 <span className="font-medium">Computer Engineering</span>, I decided to pursue my
-                passion for programming. I start taking course in coding & problem solving and learned{" "}
-                <span className="font-medium">full-stack web development</span>.{" "}
-                <span className="italic">My favorite part of programming</span> is the
-                problem-solving aspect. I <span className="underline">love</span> the
+                passion for Ai & programming. I start taking course in coding, Mathmatics, machine learning and learned{" "}
+                <span className="font-medium">Machine learning & deep learning and full-stack web development</span>.{" "}
+                <span className="italic">My favorite part of programming and Ai</span> is the
+                problem-solving with  aspect. I <span className="underline">love</span> the
                 feeling of finally figuring out a solution to a problem. My core stack
                 is{" "}
                 <span className="font-medium">
-                    React, Next.js, TypeScript, Node.js, and MongoDB or MySQL
+                    Tesnsorflow, python, React, Next.js, TypeScript, Node.js
                 </span>
-                . I am also familiar with Prisma, Mongoose ODM. I am always looking to
+                . I am also familiar with Large language model like Open ai and Llama3. I am always looking to
                 learn new technologies. I am currently looking for a{" "}
-                <span className="font-medium">full-time position</span> as a software
-                developer.
+                <span className="font-medium">full-time position</span> as a Ai Engineer.
             </p>
             <p>
-                <span className="italic">When I'm not coding</span>, I enjoy playing
+                <span className="italic">When I'm not coding and making deep learning models</span>, I enjoy playing
                 video games, watching movies, and playing with my dog. I also enjoy{" "}
                 <span className="font-medium">learning new things</span>. I am currently
                 learning about{" "}
-                <span className="font-medium">AI and space and Quantum Mechanics </span>. I 've also started to learn playing guitar.
+                <span className="font-medium">space and Quantum Mechanics </span>. I 've also started to learn playing guitar.
             </p>
         </motion.section>
     )

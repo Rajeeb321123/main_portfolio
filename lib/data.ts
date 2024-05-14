@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import moruAi from "@/public/moru-ai.png";
 // import texters from "@/public/texters.png";
 import sunshinefly from "@/public/sunshinefly.png"
+import tensorflow from "@/public/tensorflow.jpg"
+import llama from "@/public/llama.jpg"
 import movieInfo from "@/public/movieInfo.png";
 
 export const links = [
@@ -36,14 +37,14 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Javascript and React Full stack online course",
+    title: "Machine Learning and Deep Learning courses",
     location: "Online",
     description:
-      " After 7 months of studying. I immediately found a internshipe as a full-stack developer.",
+      " I recently decided to switch my carrier to AI engineer. I have finished extensive machine learning online course on Udemy by Super DataScience team. So, I have almost finished Deep learning and am in the middle of Mathematical foundation courses provided ZTM online academy and Super DataScience Team. I have completed many real world project like food vision and Skimlit NLP project in the process with Deep learning (please check my GitHub repo on deep learning to check out my projects). I have some understanding and done projects and fine tunned on LLM (especially on Llama-3b-instruct) on my own custom dataset. I am planning to master reinforcement learning, Deep reinforcement learning, Deep Q learning in future. ➔ Please checmy GitHub to track my progress.",
 
     // very imp : why not <LuGraduationCap/> beacuse it is data.ts file not tsx as we cannot write jsx file here
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "2024",
   },
   {
     title: "Full-stack Developer",
@@ -51,16 +52,8 @@ export const experiencesData = [
     description:
       "I worked as a full-stack intern for 3 months Moru Digital Wallet Pvt Ltd. I primarily learnt about OpenAi, Llama2, and other things related to Ai with large Language model.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
-  },
-  {
-    title: "Freelancing Full stack Developer",
-    location: "Kathmandu, Nepal",
-    description:
-      "I also started taking small projects from friends, and family. I also totally involved in daily basis on getting familiar with and using  new technologies to upskill myself",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
-  },
+    date: "2023 - 2024",
+  }
 ] as const;
 
 export const projectsData = [
@@ -74,6 +67,27 @@ export const projectsData = [
     website_link: "",
     youtube_link: "https://www.youtube.com/watch?v=IfygDHf-vg0&ab_channel=RajeepThapa"
   },
+  {
+    title: "Food-Vision-101 & Skimlit NLP project",
+    description:
+      " I did these projects while doing my course on deep learning with Tensorflow by ZTM academy.",
+    tags: ["Deep Learning", "NLP", "CNN", "RNN", "Tensorflow"],
+    imageUrl: tensorflow,
+    source_code_link:"https://github.com/Rajeeb321123/Deep-learning-tensorFlow-Journey",
+    youtube_link: "",
+    website_link: "",
+  },
+  {
+    title: "HTML Feature extractor using Llama3-8b-instruct and Openllama-3b-v2",
+    description:
+      " I recently did this project for learing and fine tunning Large language model and Hugging Face.",
+    tags: ["Llama3-8b", "Fine-Tuning", "Transformers", "HuggingFace"],
+    imageUrl: llama,
+    source_code_link:  "https://github.com/Rajeeb321123/Large-Language-model" ,
+    website_link: "",
+    youtube_link: ""
+  },
+
   {
     title: "Sunshine fly",
     description:
@@ -97,6 +111,28 @@ export const projectsData = [
 ] 
 
 export const skillsData = [
+  "Python",
+  "Machine & Deep learning",
+  "Linear Regression ",
+  "Classification ",
+  "Mathematical Foundation",
+  "TensorFlow ",
+  "Recurrent Neural Network",
+  "Convolution Neural Network",
+  "Deep Natural Language processing",
+  "Multi-Model Neural Network",
+  "NumPy",
+  "Padas",
+  "Transfer Learning",
+  "Hugging Face",
+  "LLama3",
+  "OpenAI",
+  "Transformers",
+  "Fine tunning",
+  "Large Language model",
+  "Vector Database",
+  "OpenAI",
+  "Chatgpt 3.5 turbo",
   "HTML",
   "CSS",
   "JavaScript",
@@ -116,10 +152,6 @@ export const skillsData = [
   "Scoket.io",
   "SCSS",
   "WebRTC",
-  "Vector Database",
-  "OpenAI",
-  "llama2",
-  "Chatgpt 3.5 turbo",
   "Framer Motion",
   "trpc"
 ] as const;
