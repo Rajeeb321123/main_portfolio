@@ -28,8 +28,7 @@
     "react-vertical-timeline-component": "^3.6.0",
     "resend": "^0.16.0",
     "sass": "^1.69.7",
-    "tailwind-merge": "^2.2.0",
-    "three": "^0.158.0"
+    "tailwind-merge": "^2.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",

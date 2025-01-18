@@ -2,6 +2,7 @@
 'use client';
 
 import Image from "next/image";
+import profile_pic from "@/public/profile_pic.jpg";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Suspense } from "react";
@@ -71,14 +72,14 @@ export default function Intro() {
                     >
 
                         <Image
-                            src="/myPhoto.png"
+                            src={profile_pic}
                             alt="Rajeeb Potrait"
                             width='192'
                             height='192'
                             quality="95"
                             
                             priority={true}
-                            className="h-24 w-24 rounded-full border-[0.35rem] object-cover shadow-xl shadow-black "
+                            className="h-28 w-28 rounded-full border-[0.35rem] object-cover shadow-xl shadow-black "
                         />
                     </motion.div>
                     <motion.span
@@ -111,8 +112,8 @@ export default function Intro() {
                 }}
             >
                 <span className="font-bold">Hello, I'm Rajeeb.</span> I'm a{" "}
-                <span className="font-bold">Ai Engineer & full-stack developer</span> with{" "}
-                <span className="font-bold">1 years </span> of experience as Web developer. I enjoy
+                <span className="font-bold">Data science & Ai Enthusiast </span> with{" "}
+                <span className="font-bold">5 months </span> of experience as Generative Ai engineer. I enjoy
                 building Deep learning models and <span className="">sites & apps</span>. My focus is{" "}
                 <span className=" bg-blue-400 rounded text-white px-2">Deep Learning and Deep Reinforcement learning</span>.
             </motion.h1>

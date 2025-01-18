@@ -28,18 +28,18 @@ export default function About() {
             >
                 After graduating with a degree in{" "}
                 <span className="font-medium">Computer Engineering</span>, I decided to pursue my
-                passion for Ai & programming. I start taking course in coding, Mathmatics, machine learning and learned{" "}
+                passion for Data science, Ai & programming. I start taking course in coding, Mathmatics, machine learning and learned{" "}
                 <span className="font-medium">Machine learning & deep learning and full-stack web development</span>.{" "}
-                <span className="italic">My favorite part of programming and Ai</span> is the
-                problem-solving with  aspect. I <span className="underline">love</span> the
+                <span className="italic">My favorite part of Data science and Ai</span> is the
+                problem-solving and visualization of Mathematics. I <span className="underline">love</span> the
                 feeling of finally figuring out a solution to a problem. My core stack
                 is{" "}
                 <span className="font-medium">
                     Tesnsorflow, python, React, Next.js, TypeScript, Node.js
                 </span>
-                . I am also familiar with Large language model like Open ai and Llama3. I am always looking to
+                . I am also familiar with Large language model with both open source and closed source models. I am always looking to
                 learn new technologies. I am currently looking for a{" "}
-                <span className="font-medium">full-time position</span> as a Ai Engineer.
+                <span className="font-medium">full-time position</span> as a Data scientist or a Ai Engineer.
             </p>
             <p>
                 <span className="italic">When I'm not coding and making deep learning models</span>, I enjoy playing
