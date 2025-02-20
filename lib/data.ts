@@ -89,7 +89,7 @@ export const projectsData = [
     youtube_link: "https://www.youtube.com/watch?v=IfygDHf-vg0&ab_channel=RajeepThapa"
   },
   {
-    title: "Food-Vision-101 & Skimlit NLP project",
+    title: "Vision & NLP",
     description:
       " I did these projects while doing my course on deep learning with Tensorflow by ZTM academy.",
     tags: ["Deep Learning", "NLP", "CNN", "RNN", "Tensorflow"],
