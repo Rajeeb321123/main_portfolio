@@ -113,7 +113,7 @@ export default function Intro() {
             >
                 <span className="font-bold">Hello, I'm Rajeeb.</span> I'm a{" "}
                 <span className="font-bold">Data science & Ai Enthusiast </span> with{" "}
-                <span className="font-bold">5 months </span> of experience as Generative Ai engineer. I enjoy
+                <span className="font-bold">previous </span>experience as Generative Ai engineer. I enjoy
                 building Deep learning models and <span className="">sites & apps</span>. My focus is{" "}
                 <span className=" bg-blue-400 rounded text-white px-2">Deep Learning and Deep Reinforcement learning</span>.
             </motion.h1>
