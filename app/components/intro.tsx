@@ -47,12 +47,12 @@ export default function Intro() {
                     autoRotate: true,
                 },
                 transformOrigin: "50% 50%",
-                duration: 10.2,
-                ease: "sine.inOut",
+                duration: 5.0,
+                ease: "bounce.inOut",
             })
             .to(plane.current, {
                 opacity: 0,
-                duration: 5,
+                duration: 2,
                 ease: "power1.out",
             });
     }, { dependencies: [] });
@@ -64,7 +64,7 @@ export default function Intro() {
             className="mb-8 max-w-[50rem] text-center scroll-mt-[100rem] relative"
             id="home"
         >
-            <svg width="100%" height="100%" viewBox="-20 0 557 190" className='absolute bottom-36' id="svg">
+            <svg width="100%" height="100%" viewBox="-20 0 557 190" className='absolute bottom-36 hidden md:block' id="svg">
 
                 <path className='' fill="none" stroke="#fff" opacity="0" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" id="path"
                     // d="M 50 250 Q 150 300 250 250 C 400 200 300 250 500 50   "
@@ -76,7 +76,7 @@ export default function Intro() {
 
             <div
                 ref={plane}
-                className='absolute text-red-600 ebottom-30 left-0 z-[100] text-4xl '
+                className='absolute text-red-600 bottom-36 left-0 z-[100] text-4xl hidden md:block '
 
             >
                 <motion.div className='rotate-90'
