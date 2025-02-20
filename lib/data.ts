@@ -41,7 +41,7 @@ export const experiencesData = [
     title: "Geneartive Ai engineer",
     location: " Princelab Pvt ltd. Kathmandu, Nepal",
     description:
-      "Previously, I have worked 5 months as Generative Ai Engineer in Princelab private limited. I extensive knowledge of Transformer architecture, it's finetuning, pretraining, RAG, inference. I have undertaken complex task on the field of Ai. For example, teaching large language models a new language like Nepali.",
+      "Previously, I have worked 6 months as Generative Ai Engineer in Princelab private limited. I extensive knowledge of Transformer architecture, it's finetuning, pretraining, RAG, inference. I have undertaken complex task on the field of Ai. For example, teaching large language models a new language like Nepali.",
 
     // very imp : why not <LuGraduationCap/> beacuse it is data.ts file not tsx as we cannot write jsx file here
     icon: React.createElement(LuGraduationCap),
